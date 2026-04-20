@@ -10,7 +10,7 @@ import {
 const services = [
   {
     icon: Home,
-    title: "Reforma Geral",
+    title: "Construção Geral",
     description: "Transformação completa do seu imóvel com planejamento e execução impecável",
   },
   {
@@ -47,7 +47,7 @@ export default function ServicesGrid() {
         <div className="text-center mb-12">
           <h2 className="mb-4">Nossos Serviços</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Soluções completas em reformas e construção civil para projetos residenciais e comerciais
+            Soluções completas em construção civil para projetos residenciais e comerciais
           </p>
         </div>
 

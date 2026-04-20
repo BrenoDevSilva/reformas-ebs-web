@@ -1,24 +1,23 @@
 import { Link } from "react-router";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-primary opacity-95 z-10" />
-
-      <ImageWithFallback
-        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80"
-        alt="Reforma de alto padrão"
+      <img
+        src="/galeria/WhatsApp Image 2026-04-18 at 21.41.03 (2).jpeg"
+        alt="Obra Reformas EBS"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/75 to-primary/90 z-10" />
+
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-white mb-6 max-w-4xl mx-auto text-4xl md:text-5xl lg:text-6xl">
-          Reformas sem dor de cabeça e entregues no prazo, com qualidade garantida
+          Construção sem dor de cabeça e entregue no prazo, com qualidade garantida
         </h1>
 
         <p className="text-white/90 mb-8 max-w-2xl mx-auto text-lg md:text-xl">
-          Transformamos seu espaço com excelência, transparência e compromisso total com prazos
+          Transformamos seu projeto em realidade com excelência, transparência e compromisso total com prazos
         </p>
 
         <Link
