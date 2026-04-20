@@ -106,10 +106,6 @@ service cloud.firestore {
 
 Acesse `/admin` logado com o e-mail cadastrado como administrador em `src/app/components/Navbar.tsx` e `src/app/pages/Admin.tsx`.
 
-## Deploy
-
-Ao hospedar (Vercel, Netlify etc.), cadastre as variáveis do `.env` no painel da plataforma — o arquivo não é enviado ao repositório.
-
 ---
 
 Desenvolvido por [Breno Silva](mailto:breno.ss1808@gmail.com) · [LinkedIn](https://www.linkedin.com/in/brenodevsilva/)
