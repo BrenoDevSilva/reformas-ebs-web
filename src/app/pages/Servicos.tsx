@@ -12,7 +12,7 @@ import { Link } from "react-router";
 const services = [
   {
     icon: Home,
-    title: "Reforma Geral",
+    title: "Construção Geral",
     description: "Transformação completa do seu imóvel",
     details: [
       "Projeto arquitetônico personalizado",
@@ -29,7 +29,6 @@ const services = [
     description: "Sistemas hidráulicos modernos e eficientes",
     details: [
       "Instalação de tubulações de água e esgoto",
-      "Sistemas de aquecimento solar",
       "Tratamento e reuso de água",
       "Manutenção preventiva e corretiva",
       "Detecção de vazamentos",
@@ -46,7 +45,6 @@ const services = [
       "Automação residencial",
       "Iluminação LED eficiente",
       "Aterramento e proteção",
-      "Laudo técnico NR-10",
     ],
   },
   {
@@ -65,7 +63,7 @@ const services = [
   {
     icon: HardHat,
     title: "Alvenaria",
-    description: "Construção e reforma estrutural de qualidade",
+    description: "Construção estrutural de qualidade",
     details: [
       "Levantamento de paredes",
       "Lajes e estruturas de concreto",
@@ -82,7 +80,6 @@ const services = [
     details: [
       "Gesso e sancas decorativas",
       "Porcelanato e revestimentos premium",
-      "Marcenaria sob medida",
       "Iluminação de destaque",
       "Metais e louças de luxo",
       "Paisagismo e decoração",
@@ -97,7 +94,7 @@ export default function Servicos() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="mb-4">Nossos Serviços</h1>
           <p className="text-lg max-w-2xl mx-auto opacity-90">
-            Soluções completas e especializadas para cada etapa da sua reforma
+            Soluções completas e especializadas para cada etapa da sua construção
           </p>
         </div>
       </section>
@@ -139,7 +136,7 @@ export default function Servicos() {
           </div>
 
           <div className="mt-16 bg-muted rounded-lg p-8 md:p-12 text-center">
-            <h2 className="mb-4">Pronto para começar sua reforma?</h2>
+            <h2 className="mb-4">Pronto para começar sua construção?</h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
               Entre em contato conosco e receba um orçamento personalizado sem compromisso
             </p>

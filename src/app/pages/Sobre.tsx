@@ -38,7 +38,7 @@ export default function Sobre() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="mb-4">Sobre a Reformas EBS</h1>
           <p className="text-lg max-w-2xl mx-auto opacity-90">
-            Transformando espaços com qualidade, confiança e expertise desde 2014
+            Construindo com qualidade, confiança e expertise desde 2014
           </p>
         </div>
       </section>
@@ -50,7 +50,7 @@ export default function Sobre() {
               <h2 className="mb-6">Nossa História</h2>
               <div className="space-y-4 text-foreground">
                 <p>
-                  A Reformas EBS nasceu em 2014 com uma missão clara: realizar reformas
+                  A Reformas EBS nasceu em 2014 com uma missão clara: realizar construções
                   de alto padrão sem os problemas tradicionais do setor. Fundada por
                   Eduardo Barbosa Silva, engenheiro civil com mais de 15 anos de experiência,
                   a empresa se destacou desde o início pela entrega pontual e qualidade
@@ -63,7 +63,7 @@ export default function Sobre() {
                   mesmo cuidado e atenção aos detalhes, independentemente do tamanho.
                 </p>
                 <p>
-                  Hoje, somos referência em reformas residenciais e comerciais de alto
+                  Hoje, somos referência em construções residenciais e comerciais de alto
                   padrão na região de São Paulo, com uma equipe especializada e
                   processos otimizados que garantem a satisfação dos nossos clientes.
                 </p>
@@ -80,7 +80,7 @@ export default function Sobre() {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground p-6 rounded-lg shadow-xl max-w-xs">
                 <p className="text-sm">
-                  "Nossa missão é transformar cada reforma em uma experiência positiva
+                  "Nossa missão é transformar cada construção em uma experiência positiva
                   e sem estresse para o cliente."
                 </p>
                 <p className="text-xs mt-2 opacity-80">

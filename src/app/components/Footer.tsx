@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="mb-4">Reformas EBS</h3>
             <p className="text-sm opacity-80 mb-4">
-              Reformas de alto padrão com qualidade garantida e entrega no prazo.
+              Construção de alto padrão com qualidade garantida e entrega no prazo.
             </p>
             <a
               href="https://www.instagram.com/reformas.ebs/"
@@ -33,6 +33,9 @@ export default function Footer() {
               </Link>
               <Link to="/portfolio" className="opacity-80 hover:opacity-100 transition-opacity">
                 Portfólio
+              </Link>
+              <Link to="/galeria" className="opacity-80 hover:opacity-100 transition-opacity">
+                Galeria
               </Link>
               <Link to="/sobre" className="opacity-80 hover:opacity-100 transition-opacity">
                 Sobre Nós
@@ -68,8 +71,26 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm opacity-60">
-          © {new Date().getFullYear()} Reformas EBS. Todos os direitos reservados.
+        <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm opacity-60 space-y-1">
+          <p>© {new Date().getFullYear()} Reformas EBS. Todos os direitos reservados.</p>
+          <p className="flex items-center justify-center gap-3 flex-wrap">
+            <span>Desenvolvido por</span>
+            <a
+              href="mailto:breno.ss1808@gmail.com"
+              className="hover:opacity-100 underline underline-offset-2 transition-opacity"
+            >
+              breno.ss1808@gmail.com
+            </a>
+            <span>·</span>
+            <a
+              href="https://www.linkedin.com/in/brenodevsilva/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-100 underline underline-offset-2 transition-opacity"
+            >
+              LinkedIn
+            </a>
+          </p>
         </div>
       </div>
     </footer>
